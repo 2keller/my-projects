@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    background-color: #1a202c; /* Darker background */
+    color: #e2e8f0; /* Lighter text */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #2d3748; /* Darker box */
+    padding: 30px; /* More padding */
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    width: 350px; /* Wider box */
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 25px; /* More space */
+    color: #cbd5e0; /* Slightly lighter heading */
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px; /* More padding */
+    margin-bottom: 15px; /* More space */
+    border: 1px solid #4a5568; /* Darker border */
+    background-color: #424e61; /* Darker input background */
+    color: #e2e8f0; /* Lighter input text */
+    border-radius: 6px; /* More rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px; /* More padding */
+    background-color: #4299e1; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 6px; /* More rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.login-box button:hover {
+    background-color: #2b6cb0; /* Darker blue on hover */
+}
+
+.login-box .hidden {
+    display: none;
+}
+
+#createAccountLink, #backToLogin {
+    text-align: center;
+    margin-top: 20px; /* More space */
+}
+
+#createAccountLink a, #backToLogin a {
+    color: #63b3ed; /* Lighter blue links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+#createAccountLink a:hover, #backToLogin a:hover {
+    color: #4299e1; /* Darker blue on hover */
+}
